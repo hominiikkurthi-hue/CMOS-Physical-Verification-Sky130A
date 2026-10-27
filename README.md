@@ -123,6 +123,33 @@ Screenshot 3: Magic VLSI Verification
 
 <img width="836" height="407" alt="image3" src="https://github.com/user-attachments/assets/1cd29531-a3b0-4bd3-8dac-7e8cbae80a49" />
 
+## 1.6 Verify Xschem
+
+Check whether Xschem is installed.
+
+xschem --version
+
+Launch the schematic editor using:
+
+xschem
+
+Screenshot 4: Xschem Launch
+
+<img width="959" height="446" alt="image4" src="https://github.com/user-attachments/assets/fb346b3d-2aec-480b-bba5-96e298af5d34" />
+
+1.7 Verify Netgen
+
+Check whether Netgen is installed.
+
+netgen --version
+
+Netgen is used for Layout Versus Schematic (LVS) comparison.
+
+Screenshot 5: Netgen Verification
+<img width="935" height="395" alt="image5" src="https://github.com/user-attachments/assets/da752310-f518-4cf6-9866-ab69cd4d3721" />
+
+
+
 
 
 
