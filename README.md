@@ -98,6 +98,34 @@ The screenshot shows the Git version available in the Ubuntu environment.
 
 <img width="829" height="421" alt="image2" src="https://github.com/user-attachments/assets/bd629af7-7648-438c-bf9a-a35381f1c20c" />
 
+## 1.4 Install Required Dependencies
+
+Install the basic packages needed to build and configure open-source EDA tools.
+
+sudo apt install -y git build-essential \
+autoconf automake libtool m4 tcsh \
+tcl-dev tk-dev python3 python3-pip \
+libx11-dev libxrender-dev libxext-dev \
+libreadline-dev gawk bison flex
+
+These packages provide compilers, build utilities, Tcl/Tk support, and other dependencies required by the tools.
+
+## 1.5 Verify Magic VLSI
+
+Check whether Magic VLSI is installed.
+
+which magic
+magic --version
+
+If Magic is installed, these commands display its executable path and version.
+
+Screenshot 3: Magic VLSI Verification
+
+<img width="836" height="407" alt="image3" src="https://github.com/user-attachments/assets/1cd29531-a3b0-4bd3-8dac-7e8cbae80a49" />
+
+
+
+
 
 
 
