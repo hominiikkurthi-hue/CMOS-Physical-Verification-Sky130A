@@ -28,8 +28,7 @@ This project focuses on CMOS inverter design and physical verification using the
 
 ## Screenshots
 Screenshots will be added as each stage of the project is completed.
-"C:\Users\homin\OneDrive\Documents\Pictures\Screenshots\WhatsApp Image 2026-09-20 at 11.51.49 AM.jpeg"
-
+<img width="940" height="1599" alt="WhatsApp Image 2026-09-20 at 11 51 49 AM" src="https://github.com/user-attachments/assets/29a3ed67-afbe-474c-b7c5-90e949577490" />
 
 ## Results
 - Schematic design: Pending
