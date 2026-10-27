@@ -185,7 +185,11 @@ Screenshot 7: SKY130A PDK Verification
 
 <img width="848" height="463" alt="image7" src="https://github.com/user-attachments/assets/c702c78a-31a0-41d6-95b8-622df11d2c26" />
 
+## 1.10 Environment Setup Summary
 
+The environment setup prepares Ubuntu for CMOS inverter design and physical verification using the SKY130A PDK and open-source EDA tools.
+
+The following checklist is used to track the progress of the environment setup.
 
 
 
