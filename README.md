@@ -148,6 +148,46 @@ Netgen is used for Layout Versus Schematic (LVS) comparison.
 Screenshot 5: Netgen Verification
 <img width="935" height="395" alt="image5" src="https://github.com/user-attachments/assets/da752310-f518-4cf6-9866-ab69cd4d3721" />
 
+## 1.8 Install and Verify ngspice
+
+Install ngspice using:
+
+sudo apt install ngspice -y
+
+Check the installation:
+
+ngspice --version
+
+ngspice is used to simulate the CMOS inverter and analyze its input and output waveforms.
+
+Screenshot 6: ngspice Verification
+<img width="758" height="439" alt="image6" src="https://github.com/user-attachments/assets/41a1234b-7677-47e0-8a8f-8c2aa915e6b0" />
+
+## 1.9 Install the SKY130A PDK
+
+The SKY130A PDK provides transistor models, technology files, and design rules required for CMOS circuit design and physical verification.
+
+First, check whether the PDK is already installed:
+
+ls /usr/local/share/pdk/sky130A
+
+If the directory does not exist, install the PDK using the Open_PDKs source and build instructions.
+
+After installation, verify the technology files:
+
+ls /usr/local/share/pdk/sky130A/libs.tech/
+ls /usr/local/share/pdk/sky130A/libs.tech/magic/
+ls /usr/local/share/pdk/sky130A/libs.tech/ngspice/
+
+Check for Netgen files if the corresponding directory is present in your installation.
+
+Screenshot 7: SKY130A PDK Verification
+
+<img width="848" height="463" alt="image7" src="https://github.com/user-attachments/assets/c702c78a-31a0-41d6-95b8-622df11d2c26" />
+
+
+
+
 
 
 
