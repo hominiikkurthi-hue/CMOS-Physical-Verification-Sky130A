@@ -76,4 +76,28 @@ Screenshot 1: System Information and Environment Verification
 The screenshot documents the system configuration used for the project.
 <img width="839" height="377" alt="image1" src="https://github.com/user-attachments/assets/2792ba3a-7e30-4183-ba92-176d340500c6" />
 
+## 1.2 Update Ubuntu Packages
+
+Update the package list and install available system updates.
+
+sudo apt update
+sudo apt upgrade -y
+
+This helps prepare Ubuntu for installing the required EDA tools.
+
+## 1.3 Install and Verify Git
+
+Install Git for version control and project management.
+
+sudo apt install git -y
+git --version
+
+Screenshot 2: Git Version Verification
+
+The screenshot shows the Git version available in the Ubuntu environment.
+
+<img width="829" height="421" alt="image2" src="https://github.com/user-attachments/assets/bd629af7-7648-438c-bf9a-a35381f1c20c" />
+
+
+
 
