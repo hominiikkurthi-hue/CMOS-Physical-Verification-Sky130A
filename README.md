@@ -82,19 +82,19 @@ The screenshot documents the system configuration used for the project.
 ## 1.2 Update Ubuntu Packages
 
 Update the package list and install available system updates.
-
-sudo apt update
-sudo apt upgrade -y
-
+```
+$ sudo apt update
+$ sudo apt upgrade -y
+```
 This helps prepare Ubuntu for installing the required EDA tools.
 
 ## 1.3 Install and Verify Git
 
 Install Git for version control and project management.
-
-sudo apt install git -y
-git --version
-
+```
+$ sudo apt install git -y
+$ git --version
+```
 Screenshot 2: Git Version Verification
 
 The screenshot shows the Git version available in the Ubuntu environment.
