@@ -171,17 +171,18 @@ Screenshot 6: ngspice Verification
 The SKY130A PDK provides transistor models, technology files, and design rules required for CMOS circuit design and physical verification.
 
 First, check whether the PDK is already installed:
-
-ls /usr/local/share/pdk/sky130A
+```
+$ ls /usr/local/share/pdk/sky130A
+```
 
 If the directory does not exist, install the PDK using the Open_PDKs source and build instructions.
 
 After installation, verify the technology files:
-
-ls /usr/local/share/pdk/sky130A/libs.tech/
-ls /usr/local/share/pdk/sky130A/libs.tech/magic/
-ls /usr/local/share/pdk/sky130A/libs.tech/ngspice/
-
+```
+$ ls /usr/local/share/pdk/sky130A/libs.tech/
+$ ls /usr/local/share/pdk/sky130A/libs.tech/magic/
+$ ls /usr/local/share/pdk/sky130A/libs.tech/ngspice/
+```
 Check for Netgen files if the corresponding directory is present in your installation.
 
 Screenshot 7: SKY130A PDK Verification
