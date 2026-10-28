@@ -116,10 +116,10 @@ These packages provide compilers, build utilities, Tcl/Tk support, and other dep
 ## 1.5 Verify Magic VLSI
 
 Check whether Magic VLSI is installed.
-
-which magic
-magic --version
-
+```
+$ which magic
+$ magic --version
+```
 If Magic is installed, these commands display its executable path and version.
 
 Screenshot 3: Magic VLSI Verification
@@ -129,13 +129,13 @@ Screenshot 3: Magic VLSI Verification
 ## 1.6 Verify Xschem
 
 Check whether Xschem is installed.
-
-xschem --version
-
+```
+$ xschem --version
+```
 Launch the schematic editor using:
-
-xschem
-
+```
+$ xschem
+```
 Screenshot 4: Xschem Launch
 
 <img width="959" height="446" alt="image4" src="https://github.com/user-attachments/assets/fb346b3d-2aec-480b-bba5-96e298af5d34" />
@@ -143,9 +143,9 @@ Screenshot 4: Xschem Launch
 ## 1.7 Verify Netgen
 
 Check whether Netgen is installed.
-
-netgen --version
-
+```
+$ netgen --version
+```
 Netgen is used for Layout Versus Schematic (LVS) comparison.
 
 Screenshot 5: Netgen Verification
@@ -154,13 +154,13 @@ Screenshot 5: Netgen Verification
 ## 1.8 Install and Verify ngspice
 
 Install ngspice using:
-
-sudo apt install ngspice -y
-
+```
+$ sudo apt install ngspice -y
+```
 Check the installation:
-
-ngspice --version
-
+```
+$ ngspice --version
+```
 ngspice is used to simulate the CMOS inverter and analyze its input and output waveforms.
 
 Screenshot 6: ngspice Verification
