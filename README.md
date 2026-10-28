@@ -247,11 +247,10 @@ The schematic is simulated using NGSpice to verify the inverter's operation befo
 The physical layout of the CMOS inverter is created using Magic and the SKY130A technology.
 
 **Screenshot 4: CMOS Inverter Layout**
-<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/0f344317-dbee-4cdf-9618-2e91495487ad" />
 
 **Screenshot 5: CMOS Inverter Layout**
 
-<img width="508" height="272" alt="image" src="https://github.com/user-attachments/assets/71106a1b-3509-4e20-a1e0-31f5c5e285ad" />
+
 
 ### 2.6 DRC — Design Rule Check
 
@@ -270,7 +269,8 @@ drc why
 
 The final DRC check confirms that no design rule violations were detected in the CMOS inverter layout.
 
-<img width="1696" height="927" alt="image" src="https://github.com/user-attachments/assets/479e5dcd-1c7a-4fe6-a1da-8840e7ec1570" />
+
+
 
 
 
