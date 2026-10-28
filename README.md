@@ -65,13 +65,13 @@ This section explains how to prepare the Ubuntu environment for the SKY130A CMOS
 First, check the Ubuntu operating system and available system resources.
 
 Run the following commands in the Ubuntu terminal:
-'''
+```
 $  lsb_release -a    
 $ uname -a     
 $ free -h    
 $ df -h /   
 $ nproc   
-'''
+```
 These commands display the Ubuntu version, kernel information, available memory, disk space, and number of CPU cores.
 
 Screenshot 1: System Information and Environment Verification
