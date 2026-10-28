@@ -237,10 +237,16 @@ The schematic is simulated using NGSpice to verify the inverter's operation befo
 
 
 
-
-
 **Screenshot 3: Pre-Layout Simulation Waveforms**
 
 <img width="558" height="466" alt="WhatsApp Image 2026-10-27 at 11 51 18 PM" src="https://github.com/user-attachments/assets/dd9cb603-7e66-44b2-bfe8-9102a6d018cd" />
+
+### 2.5 Layout — Magic VLSI
+
+The physical layout of the CMOS inverter is created using Magic and the SKY130A technology.
+
+*Screenshot 4: CMOS Inverter Layout*
+
+![CMOS Inverter Layout](images/04_cmos_inverter_layout.png)
 
 
