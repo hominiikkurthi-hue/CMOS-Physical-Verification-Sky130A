@@ -268,6 +268,7 @@ drc why
 **Screenshot 14: Design Rule Check (DRC) Verification**
 
 The final DRC check confirms that no design rule violations were detected in the CMOS inverter layout.
+<img width="773" height="406" alt="image" src="https://github.com/user-attachments/assets/210de781-a124-4254-80be-dbbdcc862c1d" />
 
 
 
