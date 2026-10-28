@@ -245,8 +245,10 @@ The schematic is simulated using NGSpice to verify the inverter's operation befo
 
 The physical layout of the CMOS inverter is created using Magic and the SKY130A technology.
 
-*Screenshot 4: CMOS Inverter Layout*
+**Screenshot 4: CMOS Inverter Layout**
+<img width="1920" height="833" alt="image" src="https://github.com/user-attachments/assets/0f344317-dbee-4cdf-9618-2e91495487ad" />
 
-![CMOS Inverter Layout](images/04_cmos_inverter_layout.png)
+
+
 
 
