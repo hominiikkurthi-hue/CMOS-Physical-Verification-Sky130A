@@ -253,7 +253,7 @@ The physical layout of the CMOS inverter is created using Magic and the SKY130A 
 
 <img width="508" height="272" alt="image" src="https://github.com/user-attachments/assets/71106a1b-3509-4e20-a1e0-31f5c5e285ad" />
 
-### 3.3 DRC — Design Rule Check
+### 2.6 DRC — Design Rule Check
 
 DRC verification was performed using Magic VLSI with the SKY130A technology.
 
@@ -269,6 +269,9 @@ drc why
 **Screenshot 14: Design Rule Check (DRC) Verification**
 
 The final DRC check confirms that no design rule violations were detected in the CMOS inverter layout.
+
+<img width="1696" height="927" alt="image" src="https://github.com/user-attachments/assets/479e5dcd-1c7a-4fe6-a1da-8840e7ec1570" />
+
 
 
 
