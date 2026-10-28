@@ -11,6 +11,9 @@ This project focuses on CMOS inverter design and physical verification using the
 - Perform Layout Versus Schematic (LVS) verification using Netgen.
 
 ## Tools Used
+
+<img width="1672" height="941" alt="Tools Used_ Semiconductor Design Workflow" src="https://github.com/user-attachments/assets/8bbe38f6-2bec-4e61-8226-31c4f42170be" />
+
 - **SKY130A PDK:** Technology files and device models.
 - **Xschem:** Schematic design.
 - **Ngspice:** Circuit simulation.
@@ -63,7 +66,7 @@ First, check the Ubuntu operating system and available system resources.
 
 Run the following commands in the Ubuntu terminal:
 '''
-$ lsb_release -a    
+$  lsb_release -a    
 $ uname -a     
 $ free -h    
 $ df -h /   
@@ -189,7 +192,100 @@ Screenshot 7: SKY130A PDK Verification
 
 The environment setup prepares Ubuntu for CMOS inverter design and physical verification using the SKY130A PDK and open-source EDA tools.
 
-The following checklist is used to track the progress of the environment setup.
+The following checklist is used to track the progress of the environment setup
+
+
+## 2. Lab 1 — CMOS Inverter Physical Verification
+
+### 2.1 Inverter Specifications
+
+| Parameter | NFET (NMOS) | PFET (PMOS) |
+|---|---|---|
+| Model | `sky130_fd_pr__nfet_01v8` | `sky130_fd_pr__pfet_01v8` |
+| Width (W) | 4.5 µm | 3 µm |
+| Length (L) | 0.18 µm | 0.18 µm |
+| Fingers (nf) | 3 | 3 |
+| Body | VSS | VDD |
+
+### 2.2 Schematic — Xschem
+
+The CMOS inverter schematic is designed using Xschem and the SKY130A PDK.
+
+**Command:**
+
+```bash
+cd ~/SKY130A-CMOS-Project/xschem
+xschem cmos_inverter.sch
+```
+
+**Screenshot 1: CMOS Inverter Schematic**
+
+<img width="1920" height="1080" alt="Screenshot (946)" src="https://github.com/user-attachments/assets/292a9491-d179-4f4c-ba47-0b54566f6d9a" />
+
+
+### 2.3 Custom CMOS Inverter Symbol — Xschem
+
+A custom symbol is created in Xschem for the CMOS inverter subcircuit, with VDD, VIN, VOUT, and VSS pins for testbench integration.
+
+<img width="1920" height="1080" alt="Screenshot (948)" src="https://github.com/user-attachments/assets/b9d8876c-4891-43e6-b629-1b0c2625ec02" />
+
+### 2.4 Schematic Testbench — Pre-Layout Simulation
+
+The schematic is simulated using NGSpice to verify the inverter's operation before layout.
+
+<img width="1920" height="1080" alt="Screenshot (949)" src="https://github.com/user-attachments/assets/5fe7a98f-d038-4cfc-9b26-63d40a8c4646" />
+
+
+
+
+
+**Screenshot 3: Pre-Layout Simulation Waveforms**
+
+<img width="558" height="466" alt="WhatsApp Image 2026-10-27 at 11 51 18 PM" src="https://github.com/user-attachments/assets/dd9cb603-7e66-44b2-bfe8-9102a6d018cd" />
+
+
+### 2.5 Layout — Magic VLSI
+
+The physical layout of the CMOS inverter is created using Magic and the SKY130A technology.
+
+**Screenshot 4: CMOS Inverter Layout**
+
+![CMOS Inverter Layout](images/04_cmos_inverter_layout.png)
+
+### 2.6 Design Rule Check (DRC)
+
+The layout is checked against the SKY130A design rules.
+
+**Screenshot 5: DRC Results**
+
+![DRC Results](images/05_drc_results.png)
+
+### 2.7 Layout Versus Schematic (LVS)
+
+Netgen is used to compare the extracted layout netlist with the schematic netlist.
+
+**Screenshot 6: LVS Results**
+
+![LVS Results](images/06_lvs_results.png)
+
+### 2.8 Post-Layout Simulation
+
+The extracted circuit is simulated to evaluate the inverter after layout.
+
+**Screenshot 7: Post-Layout Simulation Waveforms**
+
+![Post-Layout Simulation](images/07_post_layout_waveforms.png)
+
+### 2.9 Results Summary
+
+| Verification Stage | Status |
+|---|---|
+| Schematic design | Pending |
+| Pre-layout simulation | Pending |
+| Layout design | Pending |
+| DRC | Pending |
+| LVS | Pending |
+| Post-layout simulation | Pending |
 
 
 
