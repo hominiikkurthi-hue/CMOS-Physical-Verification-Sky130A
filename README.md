@@ -250,6 +250,9 @@ The physical layout of the CMOS inverter is created using Magic and the SKY130A 
 
 **Screenshot 5: CMOS Inverter Layout**
 
+<img width="1672" height="941" alt="image" src="https://github.com/user-attachments/assets/426b0689-a674-4d7c-86fc-248a856dc78f" />
+
+
 
 
 ### 2.6 DRC — Design Rule Check
