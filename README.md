@@ -296,6 +296,11 @@ Layout Versus Schematic (LVS) is an important physical verification step used to
 4. Compare the extracted layout netlist with the reference schematic netlist using Netgen.
 5. Analyze the comparison report and correct any mismatches if necessary.
 
+**ScreenShot of LVS**
+
+
+
+
 ### 2.8 Post-Layout Simulation
 
 Post-layout simulation evaluates the electrical behavior of the CMOS inverter using the extracted layout netlist. It helps analyze the effects of parasitic resistance and capacitance introduced during physical layout.
