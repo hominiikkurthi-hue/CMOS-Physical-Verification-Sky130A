@@ -274,7 +274,64 @@ drc why
 The final DRC check confirms that no design rule violations were detected in the CMOS inverter layout.
 <img width="773" height="406" alt="image" src="https://github.com/user-attachments/assets/210de781-a124-4254-80be-dbbdcc862c1d" />
 
+### 2.7 LVS — Layout Versus Schematic Verification
 
+Layout Versus Schematic (LVS) is an important physical verification step used to verify whether the CMOS inverter layout matches the reference schematic in terms of device connectivity and circuit structure.
+
+**Objectives**
+- Verify the electrical connectivity of the CMOS inverter.
+- Check NMOS and PMOS devices against the reference schematic.
+- Identify connectivity errors and device mismatches.
+
+**Tools Used**
+- **Magic VLSI:** Physical layout and netlist extraction.
+- **Netgen:** Layout Versus Schematic comparison.
+- **SKY130A PDK:** Technology-specific device definitions.
+
+**LVS Verification Procedure**
+
+1. Create the CMOS inverter layout using Magic VLSI.
+2. Extract the layout netlist using the appropriate SKY130A technology settings.
+3. Generate the reference schematic netlist from Xschem.
+4. Compare the extracted layout netlist with the reference schematic netlist using Netgen.
+5. Analyze the comparison report and correct any mismatches if necessary.
+
+### 2.8 Post-Layout Simulation
+
+Post-layout simulation evaluates the electrical behavior of the CMOS inverter using the extracted layout netlist. It helps analyze the effects of parasitic resistance and capacitance introduced during physical layout.
+
+**Objectives**
+- Verify the inverter's functionality after layout.
+- Analyze input and output voltage waveforms.
+- Examine propagation delay and output transition behavior.
+- Compare pre-layout and post-layout simulation results.
+
+**Tools Used**
+- **Magic VLSI:** Layout extraction.
+- **NGSpice:** Circuit simulation.
+- **SKY130A PDK:** Transistor models and technology files.
+
+**Procedure**
+
+1. Extract the layout netlist and parasitic information using the supported extraction flow.
+2. Prepare the post-layout simulation testbench.
+3. Run the simulation using NGSpice.
+4. Analyze the input and output waveforms.
+5. Compare the results with the pre-layout simulation.
+
+### 2.9 Results and Discussion
+
+The CMOS inverter physical verification workflow includes schematic design, pre-layout simulation, physical layout creation, Design Rule Checking (DRC), Layout Versus Schematic (LVS) verification, and post-layout simulation.
+
+Each stage contributes to validating the circuit design, checking physical layout constraints, verifying device connectivity, and evaluating electrical performance after layout.
+
+### 2.10 Conclusion
+
+This project demonstrates the CMOS inverter design and physical verification workflow using the SKY130A Process Design Kit and open-source EDA tools.
+
+Xschem is used for schematic design, NGSpice for circuit simulation, Magic VLSI for physical layout and design rule checking, and Netgen for Layout Versus Schematic comparison.
+
+The project provides practical experience in CMOS circuit design, physical layout implementation, design rule verification, netlist comparison, and post-layout analysis.
 
 
 
