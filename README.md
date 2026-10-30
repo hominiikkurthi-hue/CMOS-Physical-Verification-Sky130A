@@ -298,7 +298,8 @@ Layout Versus Schematic (LVS) is an important physical verification step used to
 
 **ScreenShot of LVS**
 
-<img width="1600" height="900" alt="image" src="https://github.com/user-attachments/assets/40ac7615-27b7-4757-8e28-98486b59d1a7" />
+<img width="593" height="335" alt="image" src="https://github.com/user-attachments/assets/833ca882-1760-4f93-8903-963e25c70315" />
+
 
 
 
