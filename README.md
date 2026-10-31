@@ -300,40 +300,13 @@ Layout Versus Schematic (LVS) is an important physical verification step used to
 
 <img width="593" height="335" alt="image" src="https://github.com/user-attachments/assets/833ca882-1760-4f93-8903-963e25c70315" />
 
-
-
-
-
-### 2.8 Post-Layout Simulation
-
-Post-layout simulation evaluates the electrical behavior of the CMOS inverter using the extracted layout netlist. It helps analyze the effects of parasitic resistance and capacitance introduced during physical layout.
-
-**Objectives**
-- Verify the inverter's functionality after layout.
-- Analyze input and output voltage waveforms.
-- Examine propagation delay and output transition behavior.
-- Compare pre-layout and post-layout simulation results.
-
-**Tools Used**
-- **Magic VLSI:** Layout extraction.
-- **NGSpice:** Circuit simulation.
-- **SKY130A PDK:** Transistor models and technology files.
-
-**Procedure**
-
-1. Extract the layout netlist and parasitic information using the supported extraction flow.
-2. Prepare the post-layout simulation testbench.
-3. Run the simulation using NGSpice.
-4. Analyze the input and output waveforms.
-5. Compare the results with the pre-layout simulation.
-
-### 2.9 Results and Discussion
+### 2.8 Results and Discussion
 
 The CMOS inverter physical verification workflow includes schematic design, pre-layout simulation, physical layout creation, Design Rule Checking (DRC), Layout Versus Schematic (LVS) verification, and post-layout simulation.
 
 Each stage contributes to validating the circuit design, checking physical layout constraints, verifying device connectivity, and evaluating electrical performance after layout.
 
-### 2.10 Conclusion
+### 2.9 Conclusion
 
 This project demonstrates the CMOS inverter design and physical verification workflow using the SKY130A Process Design Kit and open-source EDA tools.
 
